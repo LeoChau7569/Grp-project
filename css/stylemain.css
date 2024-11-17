@@ -1,0 +1,84 @@
+body {
+	max-width: 2000px;
+}
+
+.heading .menubar
+{
+	font-size:25px;
+	font-weight:900;
+	color:white;
+	align-content:center;
+	display:block;
+	width:100%;
+	height:auto;
+	background-color:#1c274c;
+}
+.heading .menubar .button
+{
+	padding-left:15px;
+	padding-right:15px;
+	cursor:pointer;
+	display:inline-block;
+	height:auto;
+	width:auto;
+	background-color:#1c274c;
+	cursor:pointer;	
+	transition: 0.3s;
+}
+.heading .menubar .button:hover
+{
+	cursor:pointer;	
+	background-color:#767d93;
+}
+
+.heading img 
+{
+	padding-top:15px;
+	display:block;
+	width:35%;
+	height:35%;
+	cursor:pointer
+}
+ .heading .menucontent {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1c274c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.heading .menucontent a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #babec9;
+  display: block;
+  transition: 0.3s;
+}
+
+.heading .menucontent a:hover {
+  color: #ffffff;
+}
+
+ .heading .menucontent .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.mainbody {
+	justify-content: center;
+	min-height:100vh;
+ }
+
+@media screen and (max-height: 450px) 
+{
+  .heading .menucontent {padding-top: 15px;}
+  .heading .menucontent a {font-size: 18px;}
+}
