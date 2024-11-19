@@ -1,0 +1,190 @@
+
+.heading
+{
+	position:fixed;
+	top:0;
+	width:dev
+}
+.heading .schoollogo
+{
+	display:block;
+	background-color:white;
+	
+}
+.heading img 
+{
+	padding-top:15px;
+	display:block;
+	width:35%;
+	height:35%;
+	cursor:pointer
+}
+.heading .menubar
+{
+	font-size:20px;
+	font-weight:900;
+	color:white;
+	align-content:center-top;
+	display:block;
+	width:100%;				
+	height:50px;	/*<-This is a bullshitway to fix a bug (lamchau)*/
+	background-color:#1c274c;
+	overflow: hidden;
+}
+/*menu*/
+.heading .menubar .Menubutton
+{
+	padding: 0 15px 0 15px;
+	margin: -8px 0 5px 0;
+	text-decoration: none;
+	float:left;
+	cursor:pointer;
+	display:inline-block;
+	width:auto;
+	background-color:#161f3c;
+	cursor:pointer;	
+	transition: 0.3s;
+}
+.heading .menubar .Menubutton:hover
+{
+	background-color:#767d93;
+}
+/*User*/
+.heading .menubar .Userbutton
+{
+	padding: 0 15px 0 15px;
+	margin: -13px 0 0 0;
+	float:right;
+	cursor:pointer;
+	display:inline-block;
+	width:auto;
+	background-color:#161f3c;
+	cursor:pointer;	
+	transition: 0.3s;
+	font-size:25px;
+	color:white;
+	text-decoration: none;
+}
+
+.heading .menubar .Userbutton:hover
+{
+	background-color:#767d93;
+}
+/*Search bar*/
+
+.heading .menubar .Searchbutton    /*bug here, check*/
+{
+	font-size:25px;
+	color:white;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+	margin: -13px 0 0 0;
+	float:right;
+	cursor:pointer;
+	display:inline-block;
+	width:auto;
+	background-color:#161f3c;
+	cursor:pointer;	
+	transition: 10s
+} 
+
+.heading .menubar .Searchbutton  :hover
+{
+	background-color:#767d93;
+}
+.heading .menubar .Searchbar input[type=text]
+{
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+/*Menu content*/
+ .heading .menucontent 
+ {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1c274c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.heading .menucontent a 
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #babec9;
+  display: block;
+  transition: 0.3s;
+}
+
+.heading .menucontent a:hover 
+{
+  color: #ffffff;
+}
+
+ .heading .menucontent .closebtn 
+ {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.heading .menulogin {
+  height: 200px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 158px;
+  right:0;
+  background-color: #1c274c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5px;
+}
+.heading .menulogin a {
+  text-decoration: none;
+  font-size: 23px;
+  color: #babec9;
+  display: block;
+  transition: 0.3s;
+}
+.heading .menulogin .text 
+{
+	position:absolute;
+	top:10px;
+	right:18px;
+	margin-left:50px;
+}
+
+.heading .menulogin a:hover 
+{
+  color: #ffffff;
+}
+
+ .heading .menulogin .closebtn 
+ {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  font-size: 30px;
+  margin-right: 50px;
+ }
+
+
+@media screen and (max-height: 450px) 
+{
+  .heading .menucontent {padding-top: 15px;}
+  .heading .menucontent a {font-size: 18px;}
+  .heading .menulogin {padding-top: 15px;}
+  .heading .menulogin a {font-size: 18px;}
+}
