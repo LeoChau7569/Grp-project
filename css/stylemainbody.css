@@ -1,3 +1,4 @@
+* {box-sizing:border-box}
 body {
 	max-width: 2000px;
 	display: flex;
@@ -7,6 +8,76 @@ body {
 }
 .mainbody 
 {
-	margin:150px 15px;
+	padding-left:5%;
+	position:absolute;
+	display:block;
+	margin-top:150px;
 	min-height:100vh;
+	z-index:0;
  }
+ .mainbody .headingribbon  /*stupid way to implement this, but it work (Lamchau)*/
+ {
+	margin: 25px auto 20px auto;	/*center image to page*/
+	width:100%;
+	align-content:center;
+ }
+ .mainbody .headingribbon img
+ {
+	display:inline-block;
+ }
+ .mainbody h1
+ {
+	margin: 5px 0 10px 0;
+	padding-left:20px;
+ } 
+ 
+div.gallery {
+  margin-top:20px;
+  border: 1px solid #ccc;
+  background:#ffffff;
+  cursor:pointer;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+  background:#f4f4f4;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 5px;
+  margin: 0 20px 5px 0;
+  display:inline-block;
+  z-index:1;
+  float: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+ .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
