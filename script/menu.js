@@ -7,7 +7,7 @@ function closeNav() {
 }
 
 function openNavUser() {
-  document.getElementById("sidenavU").style.width = "160px";
+  document.getElementById("sidenavU").style.width = "150px";
   document.getElementById("sidenavU").style.height = "125px";
 }
 

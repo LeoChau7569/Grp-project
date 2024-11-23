@@ -45,12 +45,15 @@
 	cursor:pointer;	
 	transition: 0.3s;
 }
-.heading .menubar .Menubutton:hover
+.heading .menubar .Menubutton:hover,
+.heading .menubar .Searchbutton:hover,
+.heading .menubar .Userbutton:hover
 {
 	background-color:#767d93;
 }
 /*User*/
 .heading .menubar .Userbutton
+,.heading .menubar .Searchbutton
 {
 	padding: 0 15px 0 15px;
 	margin: -13px 0 0 0;
@@ -66,17 +69,8 @@
 	text-decoration: none;
 }
 
-.heading .menubar .Userbutton:hover
-{
-	background-color:#767d93;
-}
-/*Search bar*/
-
 .heading .menubar .Searchbutton    /*bug here, check*/
 {
-	font-size:25px;
-	color:white;
-	text-decoration: none;
 	padding: 0 15px 0 15px;
 	margin: -13px 0 0 0;
 	float:right;
@@ -85,10 +79,13 @@
 	width:auto;
 	background-color:#161f3c;
 	cursor:pointer;	
-	transition: 10s
+	transition: 0.3s;
+	font-size:25px;
+	color:white;
+	text-decoration: none;
 } 
 
-.heading .menubar .Searchbutton  :hover
+.heading .menubar .Searchbutton:hover
 {
 	background-color:#767d93;
 }
