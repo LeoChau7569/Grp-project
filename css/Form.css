@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: #fffffff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -17,8 +17,16 @@ body {
 }
 
 h2 {
-    margin-bottom: 20px;
+	display:inline;
+    margin:0 0 20px 0;
+	overflow:auto;
 }
+.home{
+	color:#161f3c;
+	border: 3px dotted #161f3c;
+	float:right;
+}
+.home a{text-decoration: none; color:#161f3c;}
 
 label {
     display: block;
