@@ -7,12 +7,12 @@ function closeNav() {
 }
 
 function openNavUser() {
-
 	document.getElementById("sidenavU").style.width = "150px";
 	document.getElementById("sidenavU").style.height = "125px";
 }
 
 function closeNavUser() {
-	document.getElementById("sidenavU").style.width = "0";
+	document.getElementById("sidenavU").style.height = "0";
+	document.getElementById("sidenavU").style.width = "0px";
 }
 

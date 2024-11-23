@@ -3,11 +3,11 @@
 {
 	position:fixed;
 	top:0;
+	background-color:white;
 }
 .heading .schoollogo
 {
 	display:block;
-	background-color:white;
 	
 }
 .heading img 
@@ -98,7 +98,7 @@
 	font-size: 17px;
 }
 /*Menu content*/
- .heading .menucontent 
+#sidenav
  {
   height: 100%;
   width: 0;
@@ -135,18 +135,19 @@
   margin-left: 50px;
 }
 
-.heading .menulogin {
-  height: 200px;
-  width: 0;
+#sidenavU {
+  height: 0px;
+  width: 0px;
   position: fixed;
   z-index: 1;
   top: 158px;
   right:0;
   background-color: #1c274c;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
   padding-top: 5px;
 }
+
 .heading .menulogin a {
   text-decoration: none;
   font-size: 23px;
@@ -171,7 +172,7 @@
  {
   position: absolute;
   top: 0;
-  left: 22px;
+  left: 25px;
   font-size: 30px;
   margin-right: 50px;
  }
