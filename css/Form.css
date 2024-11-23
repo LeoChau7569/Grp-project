@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-	max-width: 2000px;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 180px;
+    margin: 0;
 }
 
 .container {
@@ -17,19 +16,19 @@ body {
     width: 320px;  /* Điều chỉnh chiều rộng container */
 }
 
-.container h2 {
+h2 {
     margin-bottom: 20px;
 }
 
-.container label {
+label {
     display: block;
     margin-bottom: 8px;
 }
 
-.container input[type="text"],
-.container input[type="password"],
-.container input[type="email"],
-.container input[type="submit"] {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
     width: calc(100% - 20px);  /* Điều chỉnh chiều rộng để các ô dài bằng nhau */
     padding: 10px;
     margin-bottom: 10px;
@@ -38,18 +37,18 @@ body {
     box-sizing: border-box;  /* Đảm bảo chiều rộng bao gồm cả padding và border */
 }
 
-.container input[type="submit"] {
+input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-.container input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-.container .link {
+.link {
     display: block;
     text-align: center;
     margin-top: 10px;
