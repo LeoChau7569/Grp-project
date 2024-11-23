@@ -2,12 +2,14 @@
 body {
 	max-width: 2000px;
 	display: flex;
-	height: 100vh;
+	height: 100%;
     margin: 0;
 	background-color:#f4f4f4;
 }
+
 .mainbody 
 {
+	flex: 1;
 	padding-left:5%;
 	position:absolute;
 	display:block;

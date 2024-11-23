@@ -186,3 +186,49 @@
   .heading .menulogin {padding-top: 15px;}
   .heading .menulogin a {font-size: 18px;}
 }
+
+
+.footing
+{
+	position:absolute;
+	top:100%;
+	height:auto;
+	background-color:#1c274c;
+	width:100%;
+	margin: 0 25px 0px 0;
+	padding:0 45px 0 45px;
+	display:grid;
+	grid-template-rows: 1fr 0.5fr;
+	color:white;
+	font-size:20px;
+}
+.footing .footing2
+{
+	position:relative;
+	bottom:0;
+}
+.footing .left-side
+{
+	float:left;
+	padding:25px 0 15px 0;
+	font-size:20px;
+}
+.footing .right-side
+{
+	position:absolute;
+	right:0;
+	top:15%;
+	cursor:pointer;
+}
+.footing .right-side img
+{
+	border: 3px dotted #ffffff;
+	border-radius:50%;
+	width:43%;
+	height:43%:
+}
+.footing .right-side a
+{
+	text-decoration:none;
+}
+
