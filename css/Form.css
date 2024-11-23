@@ -1,11 +1,12 @@
-.bodyform {
+body {
     font-family: Arial, sans-serif;
+	max-width: 2000px;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 180px;
 }
 
 .container {
@@ -16,11 +17,11 @@
     width: 320px;  /* Điều chỉnh chiều rộng container */
 }
 
-h2 {
+.container h2 {
     margin-bottom: 20px;
 }
 
-label {
+.container label {
     display: block;
     margin-bottom: 8px;
 }
@@ -37,18 +38,18 @@ label {
     box-sizing: border-box;  /* Đảm bảo chiều rộng bao gồm cả padding và border */
 }
 
-input[type="submit"] {
+.container input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.container input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-.link {
+.container .link {
     display: block;
     text-align: center;
     margin-top: 10px;
