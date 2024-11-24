@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Khảo Sát Ý Kiến Người Dùng</title>
+    <link rel="stylesheet" href="FeedBack.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Phiếu Phản Hồi/Ý Kiến Của Người Dùng</h2>
+        <form action="#" method="POST" class="form">
+            <div class="form-group">
+                <label for="fullname">Email Đăng Ký</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Nhập email của bạn" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Tên Đăng Ký</label>
+                <input type="email" id="email" name="email" placeholder="Nhập tên của bạn">
+            </div>
+            <div class="form-group">
+                <label for="phone">MSSV</label>
+                <input type="tel" id="phone" name="phone" placeholder="Nhập MSSV của bạn" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Lớp</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="hobbies">Bạn đang gặp phải rắc rối gì khi sử dụng trang web?</label>
+                <input type="text" id="hobbies" name="hobbies" placeholder="Nhập ý kiến của bạn (nếu không có ý kiến, vui lòng điền Không)">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="showCert" class="show-cert-checkbox">
+                <label for="showCert" class="show-cert-label">Bạn có hài lòng với các tính năng của trang web</label>
+                <div class="certificates">
+                    <label for="certificate-name">Mức độ hài lòng</label>
+                    <select id="certificate-name" name="certificate-name">
+                        <option value="ielts">Đỉnh nóc kịch trần</option>
+                        <option value="mos">Được đấy</option>
+                        <option value="jlpt">Bình thường</option>
+                        <option value="sat">Vã lắm mới dùng</option>
+                        <option value="hsk">CÓ cho tiền cũng không đụng vào lần 2</option>
+                    </select>
+                    <label for="certification-date">Ngày đánh giá trang web</label>
+                    <input type="date" id="certification-date" name="certification-date">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="school">Bạn có mong muốn gì khi sử dụng trang web? </label>
+                <div class="custom-select-wrapper">
+                    <select id="school" name="school">
+                        <option value="Fire Force">Không có mong muốn gì</option>
+                        <option value="None">Được hội họp với anh em bạn bè</option>
+                        <option value="JJK">Được tương tác với giảng viên, trợ giảng trong quá trình học tập và làm việc</option>
+                        <option value="Bleach">Được hiểu thêm về trường, ngành học</option>
+                        <option value="MHA">Nắm được chi tiết lịch học, lịch thi của trường</option>
+                        <option value="Demon slayer">Ngủ cùng hotgirl :))</option>
+                        <option value="Blue archive"> Dùng trang web để hack các trang web khác (dành cho coder)</option>
+                        <option value="AOT">Được thông hiểu vạn vật, cảm nhận được vật chất và ý thức </option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="achievements">Bạn có ý kiến nào khác? </label>
+                <input type="text" id="achievements" name="achievements" placeholder="Nhập ý kiến của bạn...">
+            </div>
+            <button type="submit" class="submit-btn">Gửi</button>
+        </form>
+    </div>
+</body>
+</html>
