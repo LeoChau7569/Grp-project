@@ -98,7 +98,6 @@
 	margin-right: 16px;
 	font-size: 17px;
 }
-/*Menu content*/
 #sidenav
  {
   height: 100%;
@@ -131,7 +130,7 @@
  {
   position: absolute;
   top: 0;
-  right: 25px;
+  left:5px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -151,7 +150,7 @@
 
 .heading .menulogin a {
   text-decoration: none;
-  font-size: 23px;
+  font-size: 20px;
   color: #babec9;
   display: block;
   transition: 0.3s;
