@@ -115,7 +115,7 @@
 {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #babec9;
   display: block;
   transition: 0.3s;
@@ -130,7 +130,7 @@
  {
   position: absolute;
   top: 0;
-  left:5px;
+  right:5px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -172,7 +172,7 @@
  {
   position: absolute;
   top: 0;
-  left: 25px;
+  left:15px;
   font-size: 30px;
   margin-right: 50px;
  }
