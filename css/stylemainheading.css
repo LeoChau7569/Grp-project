@@ -190,8 +190,7 @@
 
 .footing
 {
-	position:absolute;
-	top:100%;
+	position:relative;
 	height:auto;
 	background-color:#1c274c;
 	width:100%;

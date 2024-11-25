@@ -1,12 +1,14 @@
 * {box-sizing:border-box}
-body {
+body,html {
 	max-width: 2000px;
 	display: flex;
+	flex-direction:column;
 	height: 100%;
     margin: 0;
 	background-color:#f4f4f4;
 }
-
+.footing
+{top:100%;}
 .mainbody 
 {
 	flex: 1;
@@ -34,35 +36,37 @@ body {
  } 
  
 div.gallery {
-  margin-top:20px;
-  border: 1px solid #ccc;
-  background:#ffffff;
-  cursor:pointer;
+
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-top:20px;
+	border: 1px solid #ccc;
+	background:#ffffff;
+	cursor:pointer;
 }
 div.gallery:hover {
-  border: 1px solid #777;
-  background:#f4f4f4;
+	border: 1px solid #777;
+	background:#f4f4f4;
 }
 div.gallery img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 div.desc {
-  padding: 15px;
-  text-align: center;
+	padding: 15px;
+	text-align: center;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .responsive {
-  padding: 5px 5px;
-  margin: 0 20px 5px 0;
-  display:inline-block;
-  z-index:1;
-  float: left;
-  width: 30%;
+	padding: 5px 5px;
+	margin: 0 20px 5px 0;
+	display:inline-block;
+	z-index:1;
+	float: left;
+	width: 30%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -79,7 +83,7 @@ div.desc {
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }

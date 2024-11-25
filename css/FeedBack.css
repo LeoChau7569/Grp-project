@@ -1,15 +1,21 @@
-body {
+* {box-sizing:border-box}
+html, body {
+	height:100%;
     font-family:'Times New Roman', Times, serif;
     background-color: #f4f4f9;
     display: flex;
-    justify-content:first baseline;
-    align-items:first baseline;
-    height: 100vh;
+	flex-direction:column;
     margin: 0;
 }
+
+.footing{
+bottom:0;}
 .form-container {
-    background-color: white;
-    padding: 15px;  
+	flex:1;
+	justify-content:first baseline;
+    align-items:first baseline;
+	background-color: white;
+    padding: 160px 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -33,12 +39,12 @@ label {
     margin-bottom: 5px;
     text-shadow: #0b0505;
 }
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea,
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea,
 select,
-input[type="date"] {
+.form-container input[type="date"] {
     width: 100%;
     padding: 6px 10px; 
     font-size: 14px;  
