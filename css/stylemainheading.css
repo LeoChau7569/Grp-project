@@ -115,10 +115,11 @@
 {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #babec9;
   display: block;
   transition: 0.3s;
+  font-weight:700;
 }
 
 .heading .menucontent a:hover 
