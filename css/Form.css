@@ -71,3 +71,9 @@ input[type="submit"]:hover {
     text-align: center;
     margin-top: 10px;
 }
+
+#register-message, #login-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
