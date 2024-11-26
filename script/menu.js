@@ -25,4 +25,15 @@ function closeframe() {
 	document.getElementById("danhsachhocphan").style.width = "0";
 	document.getElementById("danhsachhocphan").style.height = "0";
 }
+function openframe2() {
+	document.getElementById("vangmat").style.display="block";
+	document.getElementById("vangmat").style.width = "100%";
+	document.getElementById("vangmat").style.height = "100%";
+
+}
+function closeframe2() {
+	document.getElementById("vangmat").style.display="block";
+	document.getElementById("vangmat").style.width = "0";
+	document.getElementById("vangmat").style.height = "0";
+}
 

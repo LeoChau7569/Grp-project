@@ -30,7 +30,7 @@
     background-color: #1c274c;
     overflow: hidden;
 }
-.danhsachhocphan
+.danhsachhocphan, .vangmat
 {
 	cursor:pointer;
 	position:fixed;
@@ -42,14 +42,14 @@
 	background-color: rgba(0, 0, 0, 0.8);
 	z-index:1;
 }
-.danhsachhocphan .list
+.danhsachhocphan .list, .vangmat .list
 {
 	padding-top:150px;
 	padding-left:250px;
 	position:relative;
 	
 }
-.danhsachhocphan iframe
+.danhsachhocphan iframe, .vangmat iframe
 {
 	display:block;
 	width:80%;
