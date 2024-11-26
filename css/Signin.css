@@ -1,0 +1,11 @@
+.container{
+    text-align: center;
+    border-radius: 5px solid blue;
+    font-size: larger;
+    border: 5px;
+    margin: 10px;
+}
+p{
+    text-shadow: 2px skyblue;
+    color: cadetblue;
+}
