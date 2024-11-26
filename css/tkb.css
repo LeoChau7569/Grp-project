@@ -1,41 +1,61 @@
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box;
+}
+
 html, body {
-	height:100%;
-    font-family:'Times New Roman', Times, serif;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f9;
     display: flex;
-	flex-direction:column;
+    flex-direction: column;
     margin: 0;
 }
 
-.footing{
-bottom:0;}
+.footing {
+    bottom: 0;
+}
+
 .mainbody {
-	flex:1;
-	justify-content:first baseline;
-    align-items:first baseline;
-	background-color: white;
-    padding: 160px 50px;
+    flex: 1;
+    justify-content: flex-start;  /* Chỉnh lại để các mục căn chỉnh từ đầu */
+    align-items: center;  /* Chỉnh lại để căn giữa các mục */
+    background-color: white;
+    padding: 20px;  /* Giảm padding để phù hợp với kích thước màn hình */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 850px;  
+    max-width: 100%;  /* Đặt max-width để bảng chiếm toàn bộ chiều rộng màn hình */
     box-sizing: border-box;
+    overflow: auto;  /* Thêm để tránh tràn nội dung */
 }
+
 table, th, td {
-  border: 1px solid;
-  font-size:20px;
+    border: 1px solid;
+    font-size: 20px;
 }
+
 table {
-  border-collapse: collapse;
-  width: 100%;
-  table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
 }
-td{text-align:center;}
-td:hover{background-color:#1c274c;
-color:white;}
-tr:nth-child(even) {background-color: #f2f2f2;}
-input[type="text"]{
-	display:block;
-	border:none;
-width:100%;}
+
+td {
+    text-align: center;
+}
+
+td:hover {
+    background-color: #1c274c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type="text"] {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 8px;  /* Thêm padding để các ô có khoảng cách với nội dung */
+}
