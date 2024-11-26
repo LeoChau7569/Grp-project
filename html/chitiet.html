@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Giới thiệu</title>
+	<link rel="stylesheet" type="text/css" href="../css/stylemainheading.css">
+	<link rel="stylesheet" type="text/css" href="../css/chitiet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="../script/menu.js"></script>
+</head>
+<body>
+	<div class="heading">
+			<a href="../index.html"><img src="../img/Logo_HCMUE.png" class="schoollogo"></img></a>
+			<div class="menubar">
+					<span class="Menubutton" onclick="openNav()"><p>&#9776; MENU </p></span>
+					<span class="Userbutton" onclick="openNavUser()"><p><i class="fa fa-user-circle-o" aria-hidden="true"></i></p></span>
+					<span class="Searchbutton" onclick="openNavUser()"><p><i class="fa fa-search" aria-hidden="true"></i></p></span>
+					<span class="Searchbar"><input type="text" placeholder="Search.."></input></span>
+			</div>
+		<div id="sidenav" class="menucontent">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Trang Chủ</a>
+			<a  href="../html/Tkb.html">Thời khóa biểu</a>
+			<a  href="javascript:void(0)" class="openframe" onclick="openframe()">Danh Sách Học Phần</a>
+			<a  href="../html/Signin.html">Đăng ký học phần</a>
+			<a  href="javascript:void(0)" class="openframe2" onclick="openframe2()">Xin phép vắng</a>
+			<a  href="../html/thanhvien.html">Liên hệ</a>
+			<a  href="../html/FeedBack.html">Phản Hồi/Ý Kiến</a>
+			
+		</div>
+		<div id="sidenavU" class="menulogin">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNavUser()">&times;</a>
+			<p class="text"><a  href="html/../TrangDangNhap.html">Log in</a><br><a  href="../html/TrangDangKy.html">Sign up</a>   <!--Link trang dang nhap va dang ky(Lamchau)-->
+		</div>
+	</div>
+	<div id="danhsachhocphan" class="danhsachhocphan" onclick="closeframe()">
+			<iframe src="../html/list.html" id="danhsachhocphansite"  class="list"></iframe>
+	</div>
+	<div id="vangmat" class="vangmat" onclick="closeframe2()">
+			<iframe src="../html/VangMat.html" id="Vangmatsite"  class="list"></iframe>
+	</div>
+	<div class="mainbody">
+		<h1>Giới thiệu đề tài</h1>
+		<p>Tên trang web: Quản lý học tập <br> Đối tượng: sinh viên hcmue <br> Mục đích: xây dựng hệ thống website nhàm giúp sinh viên dễ dàng theo dõi quá trình học tập của mình một cách thuận tiện <br> Chức năng: theo dõi TKB, Xem và đăng ký học phần, xin phép vắng, ect </p>
+	</div>
+	<div class="footing">
+		<div class="footing1">
+			<div class="left-side">
+				<h4>
+				280 An Dương Vương, Phường 4, Quận 5, Thành Phố Hồ Chí Minh <br> 
+				222 Lê Văn Sỹ, Phường 14, Quận 3, Thành phố Hồ Chí Minh <br>
+				Điện thoại: (+84) - (28) - 38352020 Fax: (+84) - (28) - 38398946
+				</h4>
+			</div>
+			<div class="right-side">
+				<a href="https://hcmue.edu.vn/vi/khoa-bo-mon/khoa-cntt" target="_blank"><img class="logo" src="../img/CNTT.png"></img></a>
+			</div>
+		</div>
+		<div class="footing2"><h3>Bài làm của nhóm Super Sentai</h3></div>
+	</div>
+</body>

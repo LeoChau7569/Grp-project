@@ -31,9 +31,13 @@ function openframe2() {
 	document.getElementById("vangmat").style.height = "100%";
 
 }
-function closeframe2() {
-	document.getElementById("vangmat").style.display="block";
-	document.getElementById("vangmat").style.width = "0";
-	document.getElementById("vangmat").style.height = "0";
+function dropdown() {
+	document.getElementById("dropdowncontent").style.display="block";
+	document.getElementById("dropdown").style.width = "100%";
+	document.getElementById("dropdown").style.height = "100%";
+    setTimeout(myURL, 3000);
 }
+ function myURL() {
+	document.location.href="../index.html";
+ }
 

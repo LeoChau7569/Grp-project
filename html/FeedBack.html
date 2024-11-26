@@ -34,12 +34,17 @@
 			<p class="text"><a  href="../html/TrangDangNhap.html">Log in</a><br><a  href="../html/TrangDangKy.html">Sign up</a>   <!--Link trang dang nhap va dang ky(Lamchau)-->
 		</div>
 	</div>
+	
 	<div id="danhsachhocphan" class="danhsachhocphan" onclick="closeframe()">
 			<iframe src="../html/List.html" id="danhsachhocphansite"  class="list"></iframe>
 	</div>
 	<div id="vangmat" class="vangmat" onclick="closeframe2()">
 			<iframe src="../html/VangMat.html" id="Vangmatsite"  class="list"></iframe>
 	</div>
+	<div id="dropdown" class="dropdown" onclick="myURL()">
+		<div class="dropdowncontent" id="dropdowncontent"><h1>Cảm ơn ý kiến của bạn</h1></div>
+	</div>
+	
     <div class="form-container">
         <h2>Phiếu Phản Hồi/Ý Kiến Của Người Dùng</h2>
         <form action="#" method="POST" class="form">
@@ -98,7 +103,7 @@
                 <label for="achievements">Bạn có ý kiến nào khác? </label>
                 <input type="text" id="achievements" name="achievements" placeholder="Nhập ý kiến của bạn...">
             </div>
-            <button type="submit" class="submit-btn">Gửi</button>
+            <button type="submit" class="submit-btn" onclick="dropdown()">Gửi</button>
         </form>
     </div>
 	<div class="footing">

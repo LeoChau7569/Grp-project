@@ -10,6 +10,31 @@ html, body {
 
 .footing{
 bottom:0;}
+
+.dropdown
+{
+	cursor:pointer;
+	position:fixed;
+	top:0;
+	display: block;
+	width:0;
+	height:0;
+	transition:0.5s;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index:1;
+}
+.dropdown .dropdowncontent
+{	
+	background-color:white;
+	padding-top:150px;
+ 	padding-left:300px;
+ 	position:relative;
+	display:none;
+ 	width:100%;
+ 	height:35%;
+ 	border:4px;
+}
+
 .form-container {
 	flex:1;
 	justify-content:first baseline;
