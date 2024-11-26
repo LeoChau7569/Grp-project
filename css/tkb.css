@@ -25,8 +25,8 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;  /* Chiếm 80% chiều rộng màn hình */
     max-width: 80%;  /* Đặt max-width để bảng chiếm 80% chiều rộng màn hình */
-    height: 80%;  /* Chiều cao 80% màn hình */
-    max-height: 80%;  /* Đặt max-height để chiều cao phần mainbody chiếm 80% màn hình */
+    height: calc(80% - 50px);  /* Chiều cao 80% màn hình, trừ đi chiều cao tiêu đề để tránh khuất chữ */
+    max-height: calc(80% - 50px);  /* Đặt max-height để chiều cao phần mainbody chiếm 80% màn hình trừ đi chiều cao tiêu đề */
     box-sizing: border-box;
     overflow: auto;  /* Thêm để tránh tràn nội dung */
 }
