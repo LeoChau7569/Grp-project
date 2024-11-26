@@ -1,233 +1,231 @@
+.heading {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+}
 
-.heading
-{
-	position:fixed;
-	top:0;
-	background-color:white;
-	z-index:2;
+.heading .schoollogo {
+    display: block;
 }
-.heading .schoollogo
-{
-	display:block;
-	
+
+.heading img {
+    padding-top: 15px;
+    display: block;
+    width: 35%;
+    height: 35%;
+    cursor: pointer;
 }
-.heading img 
-{
-	padding-top:15px;
-	display:block;
-	width:35%;
-	height:35%;
-	cursor:pointer
+
+.heading .menubar {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    align-content: center-top;
+    display: block;
+    width: 100%;
+    height: 50px; /* <-This is a bullshit way to fix a bug by lamchau*/
+    background-color: #1c274c;
+    overflow: hidden;
 }
-.heading .menubar
-{
-	font-size:20px;
-	font-weight:900;
-	color:white;
-	align-content:center-top;
-	display:block;
-	width:100%;				
-	height:50px;	/*<-This is a bullshitway to fix a bug (lamchau)*/
-	background-color:#1c274c;
-	overflow: hidden;
-}
+
 /*menu*/
-.heading .menubar .Menubutton
-{
-	padding: 0 15px 0 15px;
-	margin: -8px 0 5px 0;
-	text-decoration: none;
-	float:left;
-	cursor:pointer;
-	display:inline-block;
-	width:auto;
-	background-color:#161f3c;
-	cursor:pointer;	
-	transition: 0.3s;
+.heading .menubar .Menubutton {
+    padding: 0 15px;
+    margin: -8px 0 5px 0;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    background-color: #161f3c;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
 .heading .menubar .Menubutton:hover,
 .heading .menubar .Searchbutton:hover,
-.heading .menubar .Userbutton:hover
-{
-	background-color:#767d93;
+.heading .menubar .Userbutton:hover {
+    background-color: #767d93;
 }
+
 /*User*/
-.heading .menubar .Userbutton
-,.heading .menubar .Searchbutton
-{
-	padding: 0 15px 0 15px;
-	margin: -13px 0 0 0;
-	float:right;
-	cursor:pointer;
-	display:inline-block;
-	width:auto;
-	background-color:#161f3c;
-	cursor:pointer;	
-	transition: 0.3s;
-	font-size:25px;
-	color:white;
-	text-decoration: none;
+.heading .menubar .Userbutton,
+.heading .menubar .Searchbutton {
+    padding: 0 15px;
+    margin: -13px 0 0 0;
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    background-color: #161f3c;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
 }
 
-.heading .menubar .Searchbutton   /*bug fixed*/
-{
-	padding: 0 15px 0 15px;
-	margin: -13px 0 0 0;
-	float:right;
-	cursor:pointer;
-	display:inline-block;
-	width:auto;
-	background-color:#161f3c;
-	cursor:pointer;	
-	transition: 0.3s;
-	font-size:25px;
-	color:white;
-	text-decoration: none;
-} 
-
-.heading .menubar .Searchbutton:hover
-{
-	background-color:#767d93;
-}
-.heading .menubar .Searchbar input[type=text]
-{
-	float: right;
-	padding: 6px;
-	border: none;
-	margin-top: 8px;
-	margin-right: 16px;
-	font-size: 17px;
-}
-#sidenav
- {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #1c274c;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.heading .menucontent a 
-{
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #babec9;
-  display: block;
-  transition: 0.3s;
-  font-weight:700;
+.heading .menubar .Searchbutton {
+    padding: 0 15px;
+    margin: -13px 0 0 0;
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    background-color: #161f3c;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
 }
 
-.heading .menucontent a:hover 
-{
-  color: #ffffff;
+.heading .menubar .Searchbutton:hover {
+    background-color: #767d93;
 }
 
- .heading .menucontent .closebtn 
- {
-  position: absolute;
-  top: 0;
-  right:5px;
-  font-size: 36px;
-  margin-left: 50px;
+.heading .menubar .Searchbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+#sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1c274c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.heading .menucontent a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #babec9;
+    display: block;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.heading .menucontent a:hover {
+    color: #ffffff;
+}
+
+.heading .menucontent .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 #sidenavU {
-  height: 0px;
-  width: 0px;
-  position: fixed;
-  z-index: 1;
-  top: 158px;
-  right:0;
-  background-color: #1c274c;
-  overflow: hidden;
-  transition: 0.5s;
-  padding-top: 5px;
+    height: 0px;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 158px;
+    right: 0;
+    background-color: #1c274c;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 5px;
 }
 
 .heading .menulogin a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #babec9;
-  display: block;
-  transition: 0.3s;
-}
-.heading .menulogin .text 
-{
-	position:absolute;
-	top:10px;
-	right:18px;
-	margin-left:50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #babec9;
+    display: block;
+    transition: 0.3s;
 }
 
-.heading .menulogin a:hover 
-{
-  color: #ffffff;
+.heading .menulogin .text {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    margin-left: 50px;
 }
 
- .heading .menulogin .closebtn 
- {
-  position: absolute;
-  top: 0;
-  left:15px;
-  font-size: 30px;
-  margin-right: 50px;
- }
-
-
-@media screen and (max-height: 450px) 
-{
-  .heading .menucontent {padding-top: 15px;}
-  .heading .menucontent a {font-size: 18px;}
-  .heading .menulogin {padding-top: 15px;}
-  .heading .menulogin a {font-size: 18px;}
+.heading .menulogin a:hover {
+    color: #ffffff;
 }
 
-
-.footing
-{
-	position:relative;
-	height:auto;
-	background-color:#1c274c;
-	width:100%;
-	margin: 0 25px 0px 0;
-	padding:0 45px 0 45px;
-	display:grid;
-	grid-template-rows: 1fr 0.5fr;
-	color:white;
-	font-size:20px;
-}
-.footing .footing2
-{
-	position:relative;
-	bottom:0;
-}
-.footing .left-side
-{
-	float:left;
-	padding:25px 0 15px 0;
-	font-size:20px;
-}
-.footing .right-side
-{
-	position:absolute;
-	right:0;
-	top:15%;
-	cursor:pointer;
-}
-.footing .right-side img
-{
-	border: 3px dotted #ffffff;
-	border-radius:50%;
-	width:43%;
-	height:43%:
-}
-.footing .right-side a
-{
-	text-decoration:none;
+.heading .menulogin .closebtn {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 30px;
+    margin-right: 50px;
 }
 
+@media screen and (max-height: 450px) {
+    .heading .menucontent {
+        padding-top: 15px;
+    }
+
+    .heading .menucontent a {
+        font-size: 18px;
+    }
+
+    .heading .menulogin {
+        padding-top: 15px;
+    }
+
+    .heading .menulogin a {
+        font-size: 18px;
+    }
+}
+
+.footing {
+    position: relative;
+    height: auto;
+    background-color: #1c274c;
+    width: 100%;
+    margin: 0 25px 0px 0;
+    padding: 0 45px 0 45px;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    color: white;
+    font-size: 20px;
+}
+
+.footing .footing2 {
+    position: relative;
+    bottom: 0;
+}
+
+.footing .left-side {
+    float: left;
+    padding: 25px 0 15px 0;
+    font-size: 20px;
+}
+
+.footing .right-side {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    cursor: pointer;
+}
+
+.footing .right-side img {
+    border: 3px dotted #ffffff;
+    border-radius: 50%;
+    width: 43%;
+    height: 43%;
+}
+
+.footing .right-side a {
+    text-decoration: none;
+}
