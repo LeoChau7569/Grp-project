@@ -42,14 +42,14 @@ div.gallery {
 	border: 1px solid #ccc;
 	background:#ffffff;
 	cursor:pointer;
+	width:350px;
+	height:100;
+	padding:0 15px 0 15px;
+	align-content:center;
 }
 div.gallery:hover {
 	border: 1px solid #777;
 	background:#f4f4f4;
-}
-div.gallery img {
-	width: 100%;
-	height: auto;
 }
 div.desc {
 	padding: 15px;
