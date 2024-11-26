@@ -20,7 +20,7 @@ html, body {
     justify-content: flex-start;  /* Chỉnh lại để các mục căn chỉnh từ đầu */
     align-items: center;  /* Chỉnh lại để căn giữa các mục */
     background-color: white;
-    padding: 20px;  /* Giảm padding để phù hợp với kích thước màn hình */
+    padding: 10px;  /* Giảm padding để phù hợp với kích thước màn hình */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -31,7 +31,7 @@ html, body {
 
 table, th, td {
     border: 1px solid;
-    font-size: 20px;
+    font-size: 16px;  /* Giảm kích thước font để hiển thị nhiều nội dung hơn */
 }
 
 table {
@@ -57,5 +57,5 @@ input[type="text"] {
     display: block;
     border: none;
     width: 100%;
-    padding: 8px;  /* Thêm padding để các ô có khoảng cách với nội dung */
+    padding: 6px;  /* Giảm padding để các ô có khoảng cách với nội dung */
 }
