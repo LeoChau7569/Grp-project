@@ -3,7 +3,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: 90%;
     font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f9;
     display: flex;
@@ -20,20 +20,18 @@ html, body {
     justify-content: flex-start;
     align-items: center;
     background-color: white;
-    padding: 20px;  /* Điều chỉnh padding để phù hợp với kích thước màn hình */
+    padding: 10px;  /* Giảm padding để phù hợp với kích thước màn hình */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;  /* Chiếm 80% chiều rộng màn hình */
-    max-width: 80%;  /* Đặt max-width để bảng chiếm 80% chiều rộng màn hình */
-    height: 80%;  /* Chiều cao 80% màn hình */
-    max-height: 80%;  /* Đặt max-height để chiều cao phần mainbody chiếm 80% màn hình */
+    width: 100%;
+    max-width: 100%;  /* Đặt max-width để bảng chiếm toàn bộ chiều rộng màn hình */
     box-sizing: border-box;
     overflow: auto;  /* Thêm để tránh tràn nội dung */
 }
 
 table, th, td {
     border: 1px solid;
-    font-size: 18px;  /* Điều chỉnh kích thước font để hiển thị nhiều nội dung hơn */
+    font-size: 16px;  /* Giảm kích thước font để hiển thị nhiều nội dung hơn */
 }
 
 table {
