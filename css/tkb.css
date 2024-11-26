@@ -20,18 +20,18 @@ html, body {
     justify-content: flex-start;
     align-items: center;
     background-color: white;
-    padding: 5px;  /* Giảm padding để phù hợp với kích thước màn hình */
+    padding: 20px;  /* Điều chỉnh padding để phù hợp với kích thước màn hình */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 9%;
-    max-width: 9%;  /* Đặt max-width để bảng chiếm toàn bộ chiều rộng màn hình */
+    width: 80%;  /* Chiếm 80% chiều rộng màn hình */
+    max-width: 80%;  /* Đặt max-width để bảng chiếm 80% chiều rộng màn hình */
     box-sizing: border-box;
     overflow: auto;  /* Thêm để tránh tràn nội dung */
 }
 
 table, th, td {
     border: 1px solid;
-    font-size: 16px;  /* Giảm kích thước font để hiển thị nhiều nội dung hơn */
+    font-size: 18px;  /* Điều chỉnh kích thước font để hiển thị nhiều nội dung hơn */
 }
 
 table {
