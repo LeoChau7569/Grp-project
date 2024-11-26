@@ -20,11 +20,11 @@ html, body {
     justify-content: flex-start;
     align-items: center;
     background-color: white;
-    padding: 10px;  /* Giảm padding để phù hợp với kích thước màn hình */
+    padding: 5px;  /* Giảm padding để phù hợp với kích thước màn hình */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 100%;  /* Đặt max-width để bảng chiếm toàn bộ chiều rộng màn hình */
+    width: 9%;
+    max-width: 9%;  /* Đặt max-width để bảng chiếm toàn bộ chiều rộng màn hình */
     box-sizing: border-box;
     overflow: auto;  /* Thêm để tránh tràn nội dung */
 }
