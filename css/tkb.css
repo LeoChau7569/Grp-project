@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.footing {
+    bottom: 0;
+}
+
+.mainbody {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 20px;  /* Điều chỉnh padding để phù hợp với kích thước màn hình */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;  /* Chiếm 80% chiều rộng màn hình */
+    max-width: 80%;  /* Đặt max-width để bảng chiếm 80% chiều rộng màn hình */
+    height: 80%;  /* Chiều cao 80% màn hình */
+    max-height: 80%;  /* Đặt max-height để chiều cao phần mainbody chiếm 80% màn hình */
+    box-sizing: border-box;
+    overflow: auto;  /* Thêm để tránh tràn nội dung */
+}
+
+table, th, td {
+    border: 1px solid;
+    font-size: 18px;  /* Điều chỉnh kích thước font để hiển thị nhiều nội dung hơn */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    text-align: center;
+}
+
+td:hover {
+    background-color: #1c274c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type="text"] {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 6px;  /* Giảm padding để các ô có khoảng cách với nội dung */
+}
